@@ -1,0 +1,137 @@
+.topnav {
+    background-color: rgba(187, 16, 203, 0.885);
+    overflow: hidden;
+    padding: 0px 0px;
+    color: #f8f8f3;
+    font-size: 17px;
+
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f9f6f6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #030403;
+    color: white;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  .card-about-me {
+    font-size: 16px;
+    color: hwb(60 94% 4%);
+    background-color: #f6f2f6;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  .my-work {
+    font-size: 16px;
+    color: hsl(60, 20%, 95%);
+    background-color: #653b65;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  .contact-me {
+    
+    font-size: 16px;
+    color: #f1f1ec;
+    background-color: #efe3ef;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  .resume{
+    font-size: 16px;
+    color: #f8f8f1;
+    background-color: #ae15ae;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    font-family: Arial;
+  margin: 0;
+    
+}
+ 
+.flex-container {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    background-color: #5a0445;
+    color: #0d1214;
+}
+ 
+h1 {
+    font-size: 150%;
+}
+
+.card {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 16px;
+    color: #f8f8f1;
+    align-items: center;
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+
+
+.right {
+    width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        padding-right: 0;
+    }
+
+    aside {
+        width: 100%;
+        text-align: center;
+    }
+}
+  
