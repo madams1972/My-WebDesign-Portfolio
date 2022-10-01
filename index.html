@@ -1,51 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn 2 Code</title>  
-    <!--Link to style sheet-->
-    <link rel="stylesheet" href="./assets/css/style.css">
-
+<html>
+  <head>
+    <title>Malissa Adams</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Barlow:600|Rasa:300,500"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-
-  <header class="main-header">
-    <h1 style="color:white">Malissa Adams</h1> 
-  </header>
-<div class="topnav"><h3>Your Web 3.0 Instructor</h3>
-    
-    <a class="active" href="#card-about-me">About Me</a>
-    <a href="#my-work">My Work</a>
-    <a href="#contact-me">Contact Me</a>
-    <a href="#resume">My Resume</a>
-    </div>
-
-      
-        <section id= "card-about-me" class="card-about-me">
-          <header style="color:rgb(224, 16, 193)">About me </header> <img src="Assets/images/me.jpeg" alt="An image of Malissa Adams" width="400" height="400">Over the span of almost 35 years Malissa has worked for public, private and Non-profit organizations and gained a wealth of experence when it comes to business success. Malissa adds a diverse perspective when it comes to coding projects and User Experiences that are authentic and measurable.
-
-
-        </section>
-        <section id= "my-work" class="card my-work">
-          <header>My Work</header><img src="./Assets/images/Image3.png" alt="An image of Toughteddez.com" width="400" height="400">
-          <img src="./Assets/images/Image4.png" alt="An image of Malissa Adams" width="400" height="400">
-          <img src="./Assets/images/Image5.png" alt="An image of Malissa Adams" width="400" height="400">
-        </section>
-        <section id= "resume" class="card resume">
-          <header>Resume</header><img src="./Assets/images/Resume.png" alt="An image of Malissa Adams resume " width="340" height="380"link= "https://www.linkedin.com/in equitymalissa" title="My Resume"><a href=>Malissa's Linkedin Page</a>
-        </section>
-        <section id= "contact-me" class="card contact-me">
-          <header>Contact</header>
-          <ul>
-            <li>Crypto Wallet: <a href="https://www.fridayknight13.eth">www.Fridayknight13.eth</a> </li>
-            <li>Website:<a href="https://www.niftyinstitute.io">www.niftyinstitute.io</a> </li>
-            <li>TikTok: <a href="https://www.tiktok.com/@toughteddez">Create NFT's</a></li>
-            <li>Twitter:<a href="https://twitter.com/ToughTeddezNFT">Tough Teddez NFT</a></li>
-            <li>Discord: <a href="https://discord.gg/EdKtRp3ydB">Join My Discord</a></li>
-          </ul></section>
-        
-  </main>
-</body>
+    <header>
+      <h1>Malissa Adams</h1>
+      <ul class="navmenu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <section id="about-me">
+      <h1>
+        Hello, my name is
+        <br><span class="rotate text-important">Malissa Adams</span>,<br />
+        and I Develop Web 3.0 sites and Dapps.
+      </h1>
+      <img class="avatar" src="./images/me.jpeg" alt="Malissa-Adams" />
+    </section>
+    <section id="projects">
+      <h2 class="text-important">Projects</h2>
+      <div class="projects-container">
+        <!--Project Card -->
+        <div class="project-card">
+          <img src="./images/proj1.jpg" alt="project" />
+          <h3>My First Website</h3>
+          <p>
+            Back in 2020 I created my first NFT. I taught myself HTML Basics and enough JavaScript to code a NFT using Node.js and an NFT minting site. As the NFT and Crypto Markets slowed down, I decided to make good use of my time.  I 
+          </p>
+          <p><a href="http;//www.toughteddez.com">My First Website</a></p>
+        </div>
+        <!--Project Card -->
+        <div class="project-card">
+          <img src="./images/proj3.jpg" alt="project" />
+          <h3>I am a Learner</h3>
+          <p>
+            After teaching myself to code with YouTube videos I felt I needed to know more about Computer Science so I enrolled in a Full Stack Bootcamp  at a local University.
+          </p>
+          <p><a href="https://github.com/madams1972">Web 2.0 Github Link</a></p>
+        </div>
+        <!--Project Card -->
+        <div class="project-card">
+          <img src="./images/proj2.jpg" alt="project" />
+          <h3>Web 3.0</h3>
+          <p>
+            These days I am working on all sorts of Web 3 Projects 
+          </p>
+          <p><a href="#">Github Link</a></p>
+        </div>
+        <!--Project Card -->
+        <div class="project-card">
+          <img src="./images/proj4.jpg" alt="project" />
+          <h3>Project 4</h3>
+          <p>
+            In my spare time I teach a Web 3.0 Online course.
+          </p>
+          <p><a href="http://www.niftyinstitute.io">Nifty Institute</a></p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2 class="text-important">contact me</h2>
+      <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Full Name" />
+        <label>Email</label>
+        <input type="email" placeholder="Email" />
+        <label>Message</label>
+        <textarea rows="5" cols="40"></textarea>
+        <button>Send</button>
+      </form>
+    </section>
+    <footer>
+      <p>Copyritghts &copy; GOMYCODE 2020</p>
+    </footer>
+  </body>
 </html>
